@@ -1,0 +1,12 @@
+.brands{
+  min-height:610px;
+  background:url('../../../build/svg/BrandLine.svg') no-repeat 460px 275px,
+  url('../../../build/svg/BrandRect.svg') no-repeat 160px 740px;
+}
+
+.brands-container{
+  min-height: inherit;
+  padding-top: 290px;
+  background:url('../../../build/img/IphoneShadow.jpg') no-repeat 665px 158px,
+  url("../../../build/img/picture.png") no-repeat 755px 55px;
+}

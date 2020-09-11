@@ -1,0 +1,164 @@
+.goods-menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.goods-menu__item{
+  width:351px;
+  height: 451px;
+  background-color: rgb(255,255,255);
+  margin-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  cursor:pointer;
+  position: relative;
+
+}
+
+.content-reviews{
+  position: absolute;
+  z-index: 1000;
+  top:26px;
+  left:50%;
+  transform: translateX(-50%);
+  width:314px;
+  padding-left: 30px;
+  display: none;
+  justify-content: space-between;
+}
+
+
+.content-reviews__item{
+  color:rgb(187,187,187);
+  position: relative;
+}
+
+.content-reviews__item--harts:before{
+  content: " ";
+  position: absolute;
+  width:20px;
+  height: 17px;
+  background: url('../../../build/svg/hart.svg');
+  left:-23px;
+}
+
+
+.content-reviews__item--messages:before{
+  content: " ";
+  position: absolute;
+  width:24px;
+  height: 20px;
+  background: url('../../../build/svg/message.svg');
+  left:-26px;
+}
+
+.goods-menu__item:hover {
+  box-shadow: 0px 5px 47.5px 2.5px rgba(221, 223, 224, 0.75);
+}
+
+.goods-menu__item:hover .content-reviews{
+  display: flex;
+}
+
+.goods-watch .goods-menu__item{
+ margin-top: 20px;
+}
+
+.goods-menu__item-btn {
+  display: none;
+  height:60px;
+  width: 202px;
+  color:rgb(255,255,255);
+  background: url('../../../build/svg/button.svg') no-repeat center -20px;
+  background-image: -moz-linear-gradient( 64deg, rgb(140,132,249) 0%, rgb(161,101,244) 100%);
+  background-image: -webkit-linear-gradient( 64deg, rgb(140,132,249) 0%, rgb(161,101,244) 100%);
+  background-image: -ms-linear-gradient( 64deg, rgb(140,132,249) 0%, rgb(161,101,244) 100%);
+  box-shadow: 0px 5px 23.75px 1.25px rgba(240, 239, 254, 0.75);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  cursor:pointer;
+  border-radius:30px;
+  border:none;
+  position: absolute;
+  bottom:-30px;
+  left:50%;
+  transform:translateX(-50%);
+  z-index: 1000;
+}
+
+
+.goods-menu__item:hover .goods-menu__item-btn{
+  display: block;
+}
+
+.goods-menu:hover .goods-menu__item-description{
+  color:rgb(0,0,0);
+}
+
+.goods-menu__item:hover .goods-menu__item-price{
+  color:rgb(155,148,250);
+}
+
+
+.goods-title{
+  text-align: center;
+  font-family:'Open Sans',sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 2px;
+}
+
+.container-inner{
+  padding-top:90px;
+  position: relative;
+}
+
+.container-elements{
+  background: url("../../../build/svg/TrendVector.svg") no-repeat 1130px 60px,
+  url("../../../build/svg/TrendLine.svg") no-repeat 700px 45px,
+  url('../../../build/svg/TrendRect.svg') no-repeat 100px 75px;
+}
+
+.brands-elements{
+  background: url("../../../build/svg/TrendLine.svg") no-repeat 700px 45px,
+  url('../../../build/svg/TrendRect.svg') no-repeat 60px 35px,
+  url('../../../build/svg/Shape18.svg') no-repeat 60px 250px;
+}
+
+
+.goods-menu__item-description{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  color:rgb(119,119,119);
+}
+
+.goods-menu__item-description--position{
+  margin-top: 12px;
+}
+
+.goods-menu__item-description--base{
+  margin-top: 30px;
+}
+
+.goods-menu__item-price{
+  font-size: 25px;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.watches{
+  display: flex;
+}
+
+.fashion,
+.mobile,
+.cloth,
+.toys,
+.furnitures{
+  display: none;
+
+}

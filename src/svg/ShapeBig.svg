@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="153" height="153" viewBox="0 0 153 153">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f14046;
+        fill-opacity: 0;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+        fill-rule: evenodd;
+        opacity: 0.5;
+        stroke: url(#linear-gradient);
+        filter: url(#filter);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="82.5" y1="1475" x2="137.5" y2="1475" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6a43ef"/>
+      <stop offset="1" stop-color="#b799fb"/>
+    </linearGradient>
+    <filter id="filter" x="30" y="1401" width="159" height="159" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-1.294" dy="4.83" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="7.071"/>
+      <feFlood result="flood" flood-color="#caecf7" flood-opacity="0.75"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-33 -1404)" style="fill: #f14046; filter: url(#filter)">
+    <path id="path" class="cls-1" d="M82.5,1475a27.5,27.5,0,1,1,27.5,27.5A27.5,27.5,0,0,1,82.5,1475Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-33 -1404)" xlink:href="#path" style="stroke: url(#linear-gradient); filter: none; fill: none"/>
+</svg>

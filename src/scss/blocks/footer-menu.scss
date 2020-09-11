@@ -1,0 +1,15 @@
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 8px auto 0;
+  width:555px;
+  }
+
+.footer-menu__item a{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size:18px;
+  line-height: 26px;
+  color:rgb(0,0,0);
+}
+

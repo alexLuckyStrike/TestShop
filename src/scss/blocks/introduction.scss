@@ -1,0 +1,57 @@
+.introduction{
+  min-height:1051px;
+  background: url('../../../build/svg/Round.svg') 800px 145px no-repeat,
+          url('../../../build/svg/Pattern.svg') top left no-repeat,
+          url('../../../build/svg/cube.svg') 1415px 702px no-repeat,
+          url('../../../build/img/ShapeBack.png') left top/cover no-repeat,
+          url('../../../build/img/Girl.jpg') left bottom no-repeat;
+}
+
+
+.introduction-wrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.introduction-container{
+  margin-top: 345px;
+  font-family: 'Roboto', sans-serif;
+  color:rgb(255,255,255);
+
+  h1{
+    font-weight: bold;
+    font-size: 115px;
+    line-height: 120px;
+  }
+
+  h3{
+    font-size: 50px;
+    line-height: 68px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .introduction-container--collection{
+    color:rgb(0,0,0);
+  }
+
+  .introduction-container--percent{
+    color:rgb(251,249,52);
+
+  }
+
+  button{
+    display: block;
+    cursor:pointer;
+    margin-top:80px;
+    height: 61px;
+    width: 202px;
+    border:none;
+    border-radius:30px;
+    background-color: rgb(255,255,255);
+    box-shadow: 0px 5px 23.75px 1.25px rgba(189, 227, 239, 0.75);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+
+}

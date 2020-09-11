@@ -1,0 +1,42 @@
+
+  .goods-container{
+    width: 100%;
+    min-height:1316px;
+    margin:auto;
+    position: relative;
+    z-index: 1000;
+      box-shadow: 0 5px 47.5px 2.5px rgba(237, 235, 253, 0.75);
+    background-color: rgb(255,255,255);
+    .goods-container__title{
+    text-align: center;
+    }
+  }
+
+.goods-back{
+background:white url('../../../build/svg/Shape16.svg') no-repeat left 900px;
+}
+
+  .goods-position{
+    margin: -35px auto;
+    box-shadow: 0 5px 47.5px 2.5px rgba(237, 235, 253, 0.75);
+
+  }
+
+
+
+  @media(min-width: 1200px){
+  .goods-container{
+    width: 1200px;
+
+
+  }
+}
+
+
+@media (min-width:1375px) {
+  .goods-container{
+    width:1375px;
+  }
+
+}
+

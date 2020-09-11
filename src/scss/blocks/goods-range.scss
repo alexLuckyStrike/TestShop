@@ -1,0 +1,32 @@
+.goods-range{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 47.5px 2.5px rgba(239, 239, 240, 0.75);
+  width: 1105px;
+  min-height: 66px;
+  border-radius: 30px;
+  padding-left: 124px;
+  padding-right: 128px;
+  margin-top: 100px;
+  margin-left:(60/1170)*100%;
+
+}
+
+
+
+.goods-range__item-btn{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 20px;
+  font-weight: 600;
+  color:rgb(0,0,0);
+  border:none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.goods-range__item-btn:hover{
+  color:rgb(179,148,250);
+  text-shadow: 0px 9px 5px rgba(213, 200, 247, 0.75);
+}

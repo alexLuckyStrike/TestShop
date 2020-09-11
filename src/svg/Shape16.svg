@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="130" viewBox="0 0 132 130">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ad94fc;
+        fill-opacity: 0.01;
+        stroke: #673ef4;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+        opacity: 0.5;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="55" y="4060" width="135" height="133" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-1.294" dy="4.83" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="7.071"/>
+      <feFlood result="flood" flood-color="#caecf7" flood-opacity="0.75"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-56.5 -4061.5)" style="fill: #ad94fc; filter: url(#filter)">
+    <path id="Shape_16_copy" data-name="Shape 16 copy" class="cls-1" d="M128.242,4135.52l-20.375-23.18,30.266-6.06Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-56.5 -4061.5)" xlink:href="#Shape_16_copy" style="stroke: #673ef4; filter: none; fill: none"/>
+</svg>
