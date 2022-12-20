@@ -11,6 +11,7 @@ const {series} = require('gulp');
 const imgMin = require('gulp-imagemin');
 const svgMin = require('gulp-svgmin');
 const minJS  = require('gulp-uglify');
+const concat = require('gulp-concat');
 
 
 function Sass(){
@@ -29,7 +30,7 @@ function Sass(){
 
 
 function Svg(){
-    return gulp.src(['src/svg/*.svg'])
+    return gulp.src(['src/svg/*.{svg.png}'])
         .pipe(svgMin())
         .pipe(gulp.dest('build/svg'))
 }
@@ -43,6 +44,7 @@ function Images(){
 function JS(){
     return gulp.src(['src/js/*.js'])
         .pipe(plumber())
+        .pipe(concat('min.js'))
         .pipe(minJS())
         .pipe(gulp.dest('build/js'))
 }
